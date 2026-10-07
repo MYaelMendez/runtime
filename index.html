@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f4edd9">
+<title>Diplomado · #grandesmodelosdelenguaje</title>
+<style>
+:root{
+  --paper:#f4edd9;--ink:#1a2b50;--ink2:#40547c;--gold:#9c7a34;
+  --line:rgba(26,43,80,.25);--soft:rgba(26,43,80,.055);
+  --serif:Georgia,"Times New Roman",serif;
+  --sans:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  --safe-b:env(safe-area-inset-bottom,0px);
+}
+*{box-sizing:border-box}
+html{background:#07101b}
+body{margin:0;min-height:100dvh;background:radial-gradient(circle at 50% 0%,#1a2635 0,#0b121c 48%,#05080d 100%);font-family:var(--sans);color:var(--ink)}
+.wrap{width:min(100%,760px);margin:auto;padding:10px 10px calc(24px + var(--safe-b))}
+.plate{background:var(--paper);border:1px solid rgba(255,255,255,.08);border-radius:22px;overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,.38)}
+.top{padding:14px 18px;border-bottom:1px solid var(--line);font:700 9px/1.3 var(--mono);letter-spacing:.12em;display:flex;justify-content:space-between;gap:12px}
+.hero{padding:34px 20px 24px}
+.kicker{font:800 10px/1.3 var(--mono);letter-spacing:.15em;color:var(--gold);text-transform:uppercase}
+h1{margin:10px 0 14px;font:700 clamp(42px,12vw,72px)/.95 var(--serif);letter-spacing:-.04em}
+.lead{font-size:18px;line-height:1.5;color:#31486f;max-width:620px}
+.quote{margin-top:22px;padding:16px;border:1px solid var(--line);border-radius:14px;background:var(--soft);font:italic 700 18px/1.45 var(--serif)}
+.route{margin:0 20px 24px;padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:var(--soft);font:700 10px/1.65 var(--mono);overflow:auto;white-space:nowrap}
+section{padding:0 20px 24px}
+h2{margin:0 0 12px;font:800 10px/1.2 var(--mono);letter-spacing:.16em;color:var(--gold);text-transform:uppercase}
+.grid{display:grid;gap:10px}
+.card{border:1px solid var(--line);border-radius:15px;background:rgba(255,255,255,.22);padding:15px}
+.card b{display:block;margin-bottom:4px}
+.card p{margin:0;font-size:13px;line-height:1.55;color:#40547c}
+.loop{display:grid;gap:8px}
+.step{display:grid;grid-template-columns:34px 1fr;gap:10px;align-items:center;padding:10px 12px;border:1px solid var(--line);border-radius:13px;background:var(--soft)}
+.icon{width:34px;height:34px;border:1px solid var(--ink);border-radius:50%;display:grid;place-items:center}
+.step small{display:block;margin-top:2px;color:#71809a;font:600 10px/1.3 var(--mono)}
+.final{padding:18px;border:1.5px solid var(--ink);border-radius:16px;text-align:center}
+.final .big{font:700 clamp(22px,6vw,34px)/1.2 var(--serif)}
+.final .sub{margin-top:8px;color:#53637f;font:700 10px/1.6 var(--mono)}
+footer{padding:20px;border-top:1px solid var(--line);text-align:center;color:#6d7890;font:700 9px/1.55 var(--mono)}
+@media(max-width:520px){
+  .wrap{padding:0}.plate{border-radius:0;min-height:100dvh}.hero,section{padding-left:16px;padding-right:16px}.route{margin-left:16px;margin-right:16px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<main class="plate">
+  <div class="top">
+    <span>REPO://DIPLOMADO</span>
+    <span>#grandesmodelosdelenguaje</span>
+  </div>
+
+  <header class="hero">
+    <div class="kicker">Aprender · Construir · Publicar · Enseñar · Multiplicar ↺</div>
+    <h1>Diplomado</h1>
+    <div class="lead">Aprender y enseñar el uso de la inteligencia artificial en lugares difíciles de alcanzar.</div>
+    <div class="quote">“No simplificamos la realidad para el principiante. Le damos una entrada sencilla a la misma realidad.”</div>
+  </header>
+
+  <div class="route">HUMAN://🫵 → #grandesmodelosdelenguaje → 🛸 INVESTIGA → 🫵 COMPRUEBA → 🛠 CONSTRUYE → 📦 DOCUMENTA → 🌐 PUBLICA → 👥 ENSEÑA → 🫵′ ↺</div>
+
+  <section>
+    <h2>Al terminar este Diplomado...</h2>
+    <div class="grid">
+      <div class="card"><b>🧠 Esto aprendí.</b><p>Comprenderás los fundamentos de la IA y de los grandes modelos de lenguaje, y podrás seguir aprendiendo con ayuda de agentes.</p></div>
+      <div class="card"><b>🛠 Esto construí.</b><p>Aplicarás lo aprendido a proyectos, problemas y necesidades reales.</p></div>
+      <div class="card"><b>📦 Esto documenté.</b><p>Tu repositorio conservará notas, fuentes, experimentos, commits y evidencia de aprendizaje.</p></div>
+      <div class="card"><b>🌐 Esto publiqué.</b><p>Aprenderás a convertir código y contenido en una superficie web pública usando GitHub Pages.</p></div>
+      <div class="card"><b>🫵 Esto puedo enseñar.</b><p>Transformarás lo aprendido en objetos de conocimiento que otras personas y agentes puedan descubrir y reutilizar.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Cómo se aprende</h2>
+    <div class="loop">
+      <div class="step"><div class="icon">1</div><div><b>Pregunta</b><small>HUMAN://INTENT</small></div></div>
+      <div class="step"><div class="icon">2</div><div><b>Envía tus agentes</b><small>DESCUBRIR · COMPARAR · CONTEXTUALIZAR</small></div></div>
+      <div class="step"><div class="icon">3</div><div><b>Comprueba</b><small>FUENTES · CONTRADICCIONES · JUICIO HUMANO</small></div></div>
+      <div class="step"><div class="icon">4</div><div><b>Haz algo</b><small>PROYECTO · PUBLICACIÓN · SOLUCIÓN</small></div></div>
+      <div class="step"><div class="icon">5</div><div><b>Enséñalo</b><small>POST · REPO · GITHUB.IO · OBJETO DE CONOCIMIENTO</small></div></div>
+      <div class="step"><div class="icon">↺</div><div><b>Multiplica</b><small>LO QUE ENSEÑAS SE VUELVE MATERIAL PARA OTROS</small></div></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Repositorio = evidencia</h2>
+    <div class="final">
+      <div class="big">Esto aprendí.<br>Esto construí.<br>Esto puedo enseñar.</div>
+      <div class="sub">REPO://DIPLOMADO · COMMITS://PROCESO · GITHUB.PAGES://PUBLICACIÓN · #️⃣://ÍNDICE</div>
+    </div>
+  </section>
+
+  <footer>
+    COGNICIÓN PUEDE MULTIPLICARSE · LA AUTORIDAD PERMANECE HUMANA<br>
+    ENGINEERING REMAINS IN REVERENCE FOR LIFE
+  </footer>
+</main>
+</div>
+</body>
+</html>
