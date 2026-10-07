@@ -6,74 +6,99 @@
 
 > **Esto aprendí. Esto construí. Esto puedo enseñar.**
 
-Este repositorio es el espacio de trabajo, evidencia y publicación del Diplomado.
+Este repositorio es la clase.
 
-La meta no es solamente aprender a usar inteligencia artificial. La meta es aprender, investigar con agentes, construir, documentar, publicar y enseñar a otras personas.
+No es solamente un lugar para descargar archivos. Aquí aprendemos, investigamos con agentes, construimos, publicamos y dejamos evidencia de lo que podemos enseñar a otras personas.
 
 ## Al terminar este Diplomado
 
 Podrás:
 
 - aprender de manera autónoma y asíncrona sobre inteligencia artificial y grandes modelos de lenguaje;
-- investigar con agentes, comparar fuentes y revisar lo que encuentren;
+- enviar agentes a investigar, comparar y contextualizar publicaciones y fuentes;
+- comprobar críticamente lo que tus agentes encuentran;
 - aplicar lo aprendido a necesidades reales;
 - construir y documentar proyectos propios;
-- publicar conocimiento abierto en la web;
-- enseñar un concepto, práctica o herramienta de IA a otra persona;
+- publicar objetos de conocimiento en la web;
+- crear tu propio repositorio y una superficie GitHub Pages;
+- enseñar a otra persona lo que aprendiste;
 - multiplicar ese conocimiento en comunidades y lugares difíciles de alcanzar.
 
-## Modelo de aprendizaje
+## Cómo funciona la clase
 
 ```text
 HUMAN://🫵
    ↓
 #grandesmodelosdelenguaje
    ↓
-🛸 descubrir · investigar · comparar
+🛸 DESCUBRE · INVESTIGA · COMPARA
    ↓
-🫵 comprobar
+🫵 COMPRUEBA
    ↓
-🛠️ construir
+🛠️ CONSTRUYE
    ↓
-📦 documentar
+📦 DOCUMENTA
    ↓
-🌐 publicar
+🌐 PUBLICA
    ↓
-👥 enseñar
+👥 ENSEÑA
    ↓
 🫵′ ↺
 ```
 
-## Regla pedagógica
+La clase es **100% asíncrona**. Los posts son objetos de conocimiento direccionables: tus agentes pueden descubrirlos, relacionarlos, resumirlos y ayudarte a formular nuevas preguntas.
 
-**No simplificamos la realidad para el principiante. Le damos una entrada sencilla a la misma realidad.**
+## Estructura del repositorio
 
-## Resultado final
+- `modulos/` — rutas de aprendizaje.
+- `posts/` — objetos de conocimiento y ejercicios basados en publicaciones.
+- `proyectos/` — cosas que construyes.
+- `ensenar/` — materiales que creas para enseñar a otras personas.
+- `recursos/` — guías ligeras, referencias y ayudas.
+- `examples/` — codebases reales usados como ejemplos de estudio.
+- `index.html` — superficie web pública del Diplomado.
 
-El Diplomado se demuestra con evidencia:
+## Ejemplo: Omni Engineer
 
-- **Esto aprendí** → notas, fuentes, reflexiones y commits.
-- **Esto construí** → proyectos y experimentos.
-- **Esto publiqué** → una superficie web pública.
-- **Esto puedo enseñar** → objetos de conocimiento creados para otros.
+El código de **Omni Engineer** que ya existía en este repositorio se conserva como ejemplo de un codebase real de ingeniería asistida por IA.
+
+No es el centro del Diplomado. Lo usamos para observar:
+
+- cómo se organiza un proyecto real;
+- cómo un agente trabaja con archivos;
+- cómo se documentan comandos y dependencias;
+- cómo evoluciona un codebase mediante commits.
+
+Consulta: `examples/omni-engineer/README.md`.
 
 ## GitHub como práctica
 
-- **Repositorio** = donde vive y evoluciona el proyecto.
-- **Codebase** = código, documentos y archivos del proyecto.
-- **Commit** = registro de una etapa del aprendizaje.
+- **Repo** = donde vive y evoluciona un proyecto.
+- **Codebase** = código, documentos y archivos que construyen ese proyecto.
+- **Commit** = registro de una etapa.
 - **GitHub Pages** = una forma de publicar el trabajo como sitio web.
-- **GitHub.io** = ejemplo de una superficie web construida desde un repositorio.
+- **GitHub.io** = ejemplo de una superficie web generada desde un repositorio.
 
-## Principio de autoridad
+## Regla pedagógica
 
-> Agents may research and propose.  
-> The student decides what to believe, what to use, and what to teach.
+> **No simplificamos la realidad para el principiante. Le damos una entrada sencilla a la misma realidad.**
+
+## Regla de autoridad
+
+> Los agentes pueden investigar y proponer.  
+> El estudiante decide qué creer, qué usar y qué enseñar.
 
 **Cognition may multiply. Authority remains human.**
 
 ---
 
-### Ruta
+## Resultado final
+
+Cada participante debe poder demostrar:
+
+### 🧠 Esto aprendí.
+### 🛠️ Esto construí.
+### 🌐 Esto publiqué.
+### 🫵 Esto puedo enseñar.
 
 `APRENDER → INVESTIGAR → CONSTRUIR → PUBLICAR → ENSEÑAR → MULTIPLICAR ↺`
